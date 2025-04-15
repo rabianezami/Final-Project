@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: #3d3b3b;
+        }
+
+       .gallery {
+            margin: 5px;
+            border: 1px solid ;
+            border-radius: 8px;
+        }
+        .gallery:hover {
+            border: 1px solid #777;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+        }
+        .decription {
+            padding: 15px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a {
+            display: block;
+            padding: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-bottom: 0;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(151, 151, 158);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My Gallery</h2>
+    </header>
+
+    <section class="container">
+        <figure class="gallery">
+            <a target="_blank" href="image/Hakan Manguc.jfif">
+                <img src="image/Hakan Manguc.jfif" alt="Hakan Manguc" width="600" height="400">
+            </a>
+            <figcaption class="decription">Hakan Manguc: Turky Writter</figcaption>
+       </figure>
+
+       <figure class="gallery">
+        <a target="_blank" href="image/red flower.jfif">
+            <img src="image/red flower.jfif" alt="Hakan Manguc" width="600" height="400">
+        </a>
+        <figcaption class="decription">Red rose isolated on white</figcaption>
+      </figure>
+
+      <figure class="gallery">
+        <a target="_blank" href="image/Istanbul.jfif">
+            <img src="image/Istanbul.jfif" alt="Hakan Manguc" width="600" height="400">
+        </a>
+        <figcaption class="decription">Discover Istanbul With our Travel Guide</figcaption>
+      </figure>
+
+      <figure class="gallery">
+       <a target="_blank" href="image/IMG-20220717-WA0007.jpg">
+        <img src="image/IMG-20220717-WA0007.jpg" alt="Madina Hasas" width="600" height="400">
+      </a>
+      <figcaption class="decription">My lovely cousion Madina Jan</figcaption>
+   </figure>
+</section>
+
+    <footer>
+        <a class="foot" href="index.html">Back to Home Page</a>
+    </footer>
+</body>
+</html>

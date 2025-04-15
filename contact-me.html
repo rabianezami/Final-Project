@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+    
+    body {
+        box-sizing: border-box;
+        background-color: #f1f1f1;
+        width: 80%;
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    label {
+        margin-right: 50px;
+        color: #3d3b3b;
+    }
+
+    fieldset {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        border-radius: 8px;
+        color: #000000;
+    
+    }
+
+    .input-text {
+        border-radius: 8px;
+        padding: 8px;
+        border: none;
+        margin-bottom: 8px;
+        width: 230px;
+    }
+
+    textarea {
+        border-radius: 8px;
+        padding: 8px;
+        border-color: #c4b3b3;
+        margin-bottom: 8px; 
+        resize: none;
+    }
+
+    .foot {
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto; 
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        
+        <fieldset>
+            <legend>
+                <h2>Contact Me</h2>
+            </legend>
+            <table>
+                <form>
+                  <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input class="input-text" type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </td>
+                  </tr>
+                  <tr>
+                   <td>
+                     <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input class="input-text" type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <label for="message">Message</label>
+                      </td>
+                      <td>
+                          <textarea name="message" id="message" cols="30" rows="6" placeholder="Ask me any question!" required ></textarea>
+                         
+                      </td>
+                     </tr>
+                   <tr>
+                   <td>
+                    <label for="gender">Famle</label>
+                   </td>
+                    <td>
+                        <input type="radio" id="gender" name="gender" value="Famle" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="gender">Male</label>
+                    </td>
+                   <td>
+                    <input type="radio" id="gender" name="gender" value="Male" required>
+                   </td>
+                   </tr>
+                   <tr>
+                    <td><b>Interests or subjects you like </b></td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="studying">Studying Books</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="studying" name="studying" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="lesing">Lesing to music</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="lesing" name="lesing" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="walking">Walking</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="walking" name="walking" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <label for="other">Other</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="other" name="other" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>
+                        <input type="submit" required>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td>Email:<a href="mailto:rabianezami786@gmail.com" target="_blank">rabianezami786@gmail.com</a></td>
+                   </tr>
+            
+                   </form>
+              </table>
+        </fieldset>
+    </section>
+
+    <footer>
+        <a class="foot" href="index.html">Back to Home Page</a>
+    </footer>
+</body>
+</html>
