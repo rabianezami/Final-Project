@@ -15,8 +15,9 @@ body {
     color: #3d3b3b;
 }
 .nav-bar {
-    background-color: #1212;
+    background-color: lightslategray;
     padding: 20px;
+   
 }
 
 .nav-bar ul {
@@ -24,11 +25,13 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;  
+    
 }
 
  a {
     text-decoration: none;
     padding: 5px;
+    color: white;
  }
  
 a:hover {
